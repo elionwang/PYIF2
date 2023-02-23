@@ -2,7 +2,7 @@ import time # import de 'time' library, voor time.sleep()
 import os # import os (operating system), voor os.system('clear')
 
 print('Hoeveel verdien je bruto per maand?') # print vraag naar console over hoeveel de gebruiker verdient per maand (bruto)
-inkomen = float(input('Ik verdien per maand bruto: ')) # geef een regel voor de gebruiker om een antwoord in te vullen, maak hier een float van, en sla op in de variabele 'inkomen'
+inkomen = float(input('Ik verdien per maand bruto: €')) # geef een regel voor de gebruiker om een antwoord in te vullen, maak hier een float van, en sla op in de variabele 'inkomen'
 
 dertiendeMaand = input('Heb je een dertiende maand? (j/n): ') # vraag of de gebruiker een dertiende maand bonus krijgt, sla antwoord op in de variabele 'dertiendeMaand'
 
